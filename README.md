@@ -148,7 +148,7 @@ To test the kernel on target device create a USB drive with two partitions one f
         echo "Kernel loading Completed"
         :END
         
-12. To test USB device you can make use of tools in https://github.com/felipebalbi/usb-tools. Ensure that libcomposite and Zero gadget modules are loaded prior to running the tests and the OTG mode is set to "device".
+12. To test USB device you can make use of tools in https://gitlab.com/felipebalbi/usb-tools. Ensure that libcomposite and Zero gadget modules are loaded prior to running the tests and the OTG mode is set to "device".
 
     > insmod /lib/modules/4.20.0-rc4-quilt-2e5dc0ac-00064-g1ceae536e4c5/kernel/drivers/usb/gadget/libcomposite.ko
     
